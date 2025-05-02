@@ -1,0 +1,21 @@
+{
+  "name": "Phono",
+  "short_name": "Phono",
+  "description": "Your Music Collection, Organized",
+  "icons": [
+    {
+      "src": "/phono.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/phono.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "start_url": "/"
+}
