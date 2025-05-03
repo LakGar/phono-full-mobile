@@ -39,8 +39,7 @@ interface Collection {
 }
 
 interface WishlistItem {
-  _id: string;
-  discogsId: string;
+  id: string;
   title: string;
   artist: string;
   coverImage?: string;
@@ -387,9 +386,9 @@ export default function Profile() {
             <View style={styles.listContainer}>
               {wishlistData.map((item, index) => (
                 <TouchableOpacity
-                  key={`wishlist-${item._id}-${index}`}
+                  key={`wishlist-${item.id}-${index}`}
                   style={styles.wishlistCard}
-                  onPress={() => router.push(`/record/${item.discogsId}`)}
+                  onPress={() => router.push(`/record/${item.id}`)}
                 >
                   <Image
                     source={{

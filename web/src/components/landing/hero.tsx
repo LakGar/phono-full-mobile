@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Music2 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const positions = [
   { left: "10%", top: "20%" },
@@ -47,36 +48,60 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6">
-            Your Music Collection,
-            <br />
-            <span className="text-[#e54545]">Organized</span>
-          </h1>
-          <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            Phono helps you organize, discover, and share your music collection
-            with ease. Start your journey today.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="#signup"
-              className="inline-flex items-center justify-center px-8 py-3 bg-[#e54545] text-white rounded-lg hover:bg-[#e54545]/90 transition-colors duration-200 text-lg font-medium"
-            >
-              Get Started
-            </Link>
-            <Link
-              href="#features"
-              className="inline-flex items-center justify-center px-8 py-3 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors duration-200 text-lg font-medium"
-            >
-              Learn More
-            </Link>
-          </div>
-        </motion.div>
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+          {/* Text Content - Left Side */}
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+            className="flex-1 text-left"
+          >
+            <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6">
+              Your Music Collection,
+              <br />
+              <span className="text-[#e54545]">Organized</span>
+            </h1>
+            <p className="text-xl text-gray-400 mb-8 max-w-2xl">
+              Phono helps you organize, discover, and share your music
+              collection with ease. Start your journey today.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="#signup"
+                className="inline-flex items-center justify-center px-8 py-3 bg-[#e54545] text-white rounded-lg hover:bg-[#e54545]/90 transition-colors duration-200 text-lg font-medium"
+              >
+                Get Started
+              </Link>
+              <Link
+                href="#features"
+                className="inline-flex items-center justify-center px-8 py-3 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors duration-200 text-lg font-medium"
+              >
+                Learn More
+              </Link>
+            </div>
+          </motion.div>
+
+          {/* Image Content - Right Side */}
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex-1 flex justify-center"
+          >
+            <div className="relative w-full max-w-lg">
+              <div className="absolute inset-0 rounded-full border-2 border-[#e54545] animate-spin-slow opacity-5" />
+              <Image
+                src="/hero-graphic.png"
+                alt="Phono Logo"
+                width={200}
+                height={200}
+                className="w-[300px] h-auto"
+                priority
+              />
+            </div>
+          </motion.div>
+        </div>
       </div>
 
       {/* Audio Visualizer */}

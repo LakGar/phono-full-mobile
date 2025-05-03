@@ -17237,3 +17237,487 @@
 {"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:09:25","userId":"681064938b4776a8d456aebb"}
 {"level":"debug","message":"Cache hit for /api/users/profile/me","service":"phono-api","timestamp":"2025-05-02 15:09:25"}
 {"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:09:25 +0000] \"GET /api/users/profile/me HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:09:25"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:40"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:40"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:40","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:40","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:40"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:40"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:40","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:40","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:40"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:40"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:40","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:40","userId":"681064938b4776a8d456aebb"}
+{"level":"debug","message":"Cache set for /api/users/profile/me","service":"phono-api","timestamp":"2025-05-02 15:28:40"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:28:40 +0000] \"GET /api/users/profile/me HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:28:40"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:28:40 +0000] \"GET /api/collections HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:28:40"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:28:48 +0000] \"GET /api/discogs/albums/11203418 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:28:48"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:48"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:48"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:48","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:48","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:28:49 +0000] \"GET /api/discogs/albums/6251630 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:28:49"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:49"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:49"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:49","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:49","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:28:49 +0000] \"GET /api/discogs/albums/5191591 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:28:49"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:49"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:49"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:49","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:49","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:28:54 +0000] \"GET /api/discogs/albums/4570366 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:28:54"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:56"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:56"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:56","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:56","userId":"681064938b4776a8d456aebb"}
+{"level":"debug","message":"Cache hit for /api/users/profile/me","service":"phono-api","timestamp":"2025-05-02 15:28:56"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:28:56 +0000] \"GET /api/users/profile/me HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:28:56"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:56"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:56"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:56","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:56","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:56"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:56"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:56","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:56","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:28:56 +0000] \"GET /api/collections HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:28:56"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:28:57 +0000] \"GET /api/discogs/albums/11203418 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:28:57"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:57"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:57"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:57","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:57","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:28:57 +0000] \"GET /api/discogs/albums/6251630 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:28:57"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:57"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:57"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:57","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:57","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:28:58 +0000] \"GET /api/discogs/albums/5191591 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:28:58"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:28:58"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:28:58"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:58","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:28:58","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:29:01 +0000] \"GET /api/discogs/albums/4570366 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:29:01"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:29:51"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:29:51"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:29:51","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:29:51","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:29:52 +0000] \"GET /api/discogs/albums/undefined HTTP/1.1\" 500 59 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:29:52"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:29:54"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:29:54"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:29:54","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:29:54","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:29:54 +0000] \"GET /api/discogs/albums/undefined HTTP/1.1\" 500 59 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:29:54"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:29:56"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:29:56"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:29:56","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:29:56","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:29:56 +0000] \"GET /api/discogs/albums/undefined HTTP/1.1\" 500 59 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:29:56"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:29:59"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:29:59"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:29:59","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:29:59","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:29:59 +0000] \"GET /api/discogs/albums/undefined HTTP/1.1\" 500 59 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:29:59"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:30:07"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:30:07"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:07","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:07","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:30:07 +0000] \"GET /api/discogs/albums/undefined HTTP/1.1\" 500 59 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:30:07"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:30:15"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:30:15"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:15","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:15","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:30:15 +0000] \"GET /api/discogs/albums/by-genres?genres=Metal HTTP/1.1\" 200 28 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:30:15"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:30:20"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:30:20"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:20","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:20","userId":"681064938b4776a8d456aebb"}
+{"level":"debug","message":"Cache hit for /api/users/profile/me","service":"phono-api","timestamp":"2025-05-02 15:30:20"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:30:20 +0000] \"GET /api/users/profile/me HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:30:20"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:30:21"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:30:21"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:21","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:21","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:30:21"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:30:21"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:21","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:21","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:30:21 +0000] \"GET /api/collections HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:30:21"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:30:21 +0000] \"GET /api/discogs/albums/11203418 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:30:21"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:30:21"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:30:21"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:21","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:21","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:30:21 +0000] \"GET /api/discogs/albums/6251630 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:30:21"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:30:21"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:30:21"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:21","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:21","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:30:22 +0000] \"GET /api/discogs/albums/5191591 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:30:22"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:30:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:30:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:30:23 +0000] \"GET /api/discogs/albums/4570366 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:30:23"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:30:26"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:30:26"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:26","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:26","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:30:26"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:30:26"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:26","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:30:26","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:30:26 +0000] \"GET /api/discogs/albums/undefined HTTP/1.1\" 500 59 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:30:26"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:30:26 +0000] \"GET /api/discogs/albums/undefined HTTP/1.1\" 500 59 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:30:26"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"level":"debug","message":"Cache hit for /api/users/profile/me","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:21 +0000] \"GET /api/users/profile/me HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"level":"debug","message":"Cache hit for /api/users/profile/me","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:21 +0000] \"GET /api/users/profile/me HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:21","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:21 +0000] \"GET /api/discogs/albums/11203418 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:21 +0000] \"GET /api/collections HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:21"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:22 +0000] \"GET /api/collections HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:22 +0000] \"GET /api/discogs/albums/11203418 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:22 +0000] \"GET /api/discogs/albums/undefined HTTP/1.1\" 500 59 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:22 +0000] \"GET /api/discogs/albums/undefined HTTP/1.1\" 500 59 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:22 +0000] \"GET /api/discogs/albums/undefined HTTP/1.1\" 500 59 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:22 +0000] \"GET /api/discogs/albums/undefined HTTP/1.1\" 500 59 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:22 +0000] \"GET /api/discogs/albums/6251630 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:22 +0000] \"GET /api/discogs/albums/6251630 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:22 +0000] \"GET /api/discogs/albums/5191591 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:22 +0000] \"GET /api/discogs/albums/5191591 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:23 +0000] \"GET /api/discogs/albums/4570366 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:23"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:23 +0000] \"GET /api/discogs/albums/4570366 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:23"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:24"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:24"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:24","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:24","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:25 +0000] \"GET /api/discogs/albums/6251630 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:25"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:34"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:34"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:34","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:34","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:34 +0000] \"GET /api/discogs/albums/11203418 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:34"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:31:38"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:31:38"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:38","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:31:38","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:31:39 +0000] \"GET /api/discogs/albums/4570366 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:31:39"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:32:50"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:32:50"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:50","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:50","userId":"681064938b4776a8d456aebb"}
+{"level":"debug","message":"Cache hit for /api/users/profile/me","service":"phono-api","timestamp":"2025-05-02 15:32:50"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:32:50 +0000] \"GET /api/users/profile/me HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:32:50"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:32:50"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:32:50"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:50","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:50","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:32:50"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:32:50"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:50","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:50","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:32:51 +0000] \"GET /api/discogs/albums/11203418 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:32:51"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:32:51"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:32:51"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:51","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:51","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:32:51 +0000] \"GET /api/collections HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:32:51"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:32:51 +0000] \"GET /api/discogs/albums/6251630 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:32:51"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:32:51"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:32:51"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:51","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:51","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:32:51 +0000] \"GET /api/discogs/albums/5191591 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:32:51"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:32:51"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:32:51"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:51","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:32:51","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:32:52 +0000] \"GET /api/discogs/albums/4570366 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:32:52"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:21"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:21"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:21","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:21","userId":"681064938b4776a8d456aebb"}
+{"level":"debug","message":"Cache set for /api/users/profile/me","service":"phono-api","timestamp":"2025-05-02 15:56:22"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:22 +0000] \"GET /api/users/profile/me HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:22"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Received request for user preferences","service":"phono-api","timestamp":"2025-05-02 15:56:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User from token:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:22","userId":"681064938b4776a8d456aebb"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Found user:","service":"phono-api","timestamp":"2025-05-02 15:56:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Found preferences:","service":"phono-api","timestamp":"2025-05-02 15:56:22"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:22 +0000] \"GET /api/preferences HTTP/1.1\" 200 834 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:22"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:22 +0000] \"GET /api/collections HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:22"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:30"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:30"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:30","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:30","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:31 +0000] \"GET /api/discogs/albums/4570366 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:31"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:37"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:37"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:37","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:37","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:37 +0000] \"GET /api/collections HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:37"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:44"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:44"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:44","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:44","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:44 +0000] \"GET /api/discogs/artists/details/779927 HTTP/1.1\" 200 31564 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:44"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:44"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:44"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:44","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:44","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:44 +0000] \"GET /api/discogs/artists/details/243955 HTTP/1.1\" 200 27017 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:44"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:44"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:44"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:44","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:44","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:44 +0000] \"GET /api/discogs/artists/details/271098 HTTP/1.1\" 200 9953 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:44"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:44"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:44"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:44","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:44","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:45 +0000] \"GET /api/discogs/artists/details/110862 HTTP/1.1\" 200 13148 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:45"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:45"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:45"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:45","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:45","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:45 +0000] \"GET /api/discogs/artists/details/59792 HTTP/1.1\" 200 21161 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:45"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:45"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:45"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:45","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:45","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:45 +0000] \"GET /api/discogs/artists/details/110861 HTTP/1.1\" 200 12748 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:45"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:46"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:46"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:46","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:46","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:56:46"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:56:46"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:46","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:56:46","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:56:46 +0000] \"GET /api/discogs/artists/details/779927 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:56:46"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:57:17 +0000] \"GET /api/discogs/artists/releases/779927?page=1&per_page=20 HTTP/1.1\" 500 94 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:57:17"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:57:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:57:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:57:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:57:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 15:57:22"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 15:57:22"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:57:22","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 15:57:22","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:57:22 +0000] \"GET /api/discogs/artists/details/271098 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:57:22"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:22:57:50 +0000] \"GET /api/discogs/artists/releases/271098?page=1&per_page=20 HTTP/1.1\" 200 7024 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 15:57:50"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"debug","message":"Cache set for /api/users/profile/me","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:36 +0000] \"GET /api/users/profile/me HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:36 +0000] \"GET /api/collections HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:36 +0000] \"GET /api/discogs/albums/11203418 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:36 +0000] \"GET /api/discogs/albums/popular HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:36 +0000] \"GET /api/discogs/albums/by-genres?genres=Jazz HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:36 +0000] \"GET /api/discogs/albums/by-genres?genres=Reggae HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:36 +0000] \"GET /api/discogs/albums/by-genres?genres=Folk HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:36"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:36","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/by-genres?genres=Classical HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/by-genres?genres=Latin HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/by-genres?genres=Funk HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/popular HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/by-genres?genres=Reggae HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/by-genres?genres=Latin HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/by-genres?genres=Folk HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/by-genres?genres=Classical HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/by-genres?genres=Jazz HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/by-genres?genres=Funk HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/6251630 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:37 +0000] \"GET /api/discogs/albums/5191591 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:03:37"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"exp":1746309789,"iat":1746223389,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:03:37","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:03:38 +0000] \"GET /api/discogs/albums/4570366 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:03:38"}
+{"level":"info","message":"User logged in: lakgarg2002@gmail.com","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:04:16 +0000] \"POST /api/users/login HTTP/1.1\" 200 1039 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:04:16","userId":"681064938b4776a8d456aebb"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:04:16","userId":"681064938b4776a8d456aebb"}
+{"level":"debug","message":"Cache hit for /api/users/profile/me","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:04:16 +0000] \"GET /api/users/profile/me HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:04:16","userId":"681064938b4776a8d456aebb"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:04:16","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Received request for user preferences","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"User from token:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:04:16","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:04:16","userId":"681064938b4776a8d456aebb"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:04:16","userId":"681064938b4776a8d456aebb"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Found user:","service":"phono-api","timestamp":"2025-05-02 16:04:16"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Found preferences:","service":"phono-api","timestamp":"2025-05-02 16:04:17"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:04:17 +0000] \"GET /api/preferences HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:04:17"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:04:17 +0000] \"GET /api/collections HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:04:17"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:05:04"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:05:04"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:05:04","userId":"681064938b4776a8d456aebb"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:05:04","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:05:04"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:05:04"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:05:04","userId":"681064938b4776a8d456aebb"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:05:04","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 16:05:04"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 16:05:04"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:05:04","userId":"681064938b4776a8d456aebb"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 16:05:04","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:05:04 +0000] \"GET /api/discogs/explore/featured HTTP/1.1\" 200 14895 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:05:04"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:05:04 +0000] \"GET /api/discogs/albums/editor-picks HTTP/1.1\" 200 6185 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:05:04"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [02/May/2025:23:05:04 +0000] \"GET /api/discogs/explore/genre-highlights HTTP/1.1\" 200 17127 \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 16:05:04"}
+{"level":"info","message":"Auth middleware - checking token","service":"phono-api","timestamp":"2025-05-02 19:12:39"}
+{"0":"y","1":"e","2":"s","level":"info","message":"Token found:","service":"phono-api","timestamp":"2025-05-02 19:12:39"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"Token decoded successfully:","role":"user","service":"phono-api","timestamp":"2025-05-02 19:12:39","userId":"681064938b4776a8d456aebb"}
+{"exp":1746313456,"iat":1746227056,"level":"info","message":"User set in request:","role":"user","service":"phono-api","timestamp":"2025-05-02 19:12:39","userId":"681064938b4776a8d456aebb"}
+{"level":"info","message":"::ffff:10.0.0.97 - - [03/May/2025:02:12:39 +0000] \"GET /api/discogs/albums/4570366 HTTP/1.1\" 304 - \"-\" \"Expo/2.32.18 CFNetwork/1568.200.51 Darwin/24.4.0\"","service":"phono-api","timestamp":"2025-05-02 19:12:39"}

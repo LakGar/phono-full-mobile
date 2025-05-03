@@ -1,34 +1,34 @@
-"use client";
+// "use client";
 
-import { motion } from "framer-motion";
-import { Check } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { useState } from "react";
-import { loadStripe } from "@stripe/stripe-js";
-import { createCheckoutSession } from "@/lib/stripe";
+// import { motion } from "framer-motion";
+// import { Check } from "lucide-react";
+// import { Button } from "@/components/ui/button";
+// import { useState } from "react";
+// import { loadStripe } from "@stripe/stripe-js";
+// import { createCheckoutSession } from "@/lib/stripe";
 
-const stripePromise = loadStripe(
-  process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!
-);
+// const stripePromise = loadStripe(
+//   process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!
+// );
 
 export default function SubscriptionPage() {
-  const [isLoading, setIsLoading] = useState(false);
+  // const [isLoading, setIsLoading] = useState(false);
 
-  const handleCheckout = async () => {
-    try {
-      setIsLoading(true);
-      const { sessionId } = await createCheckoutSession();
-      const stripe = await stripePromise;
-      const { error } = await stripe!.redirectToCheckout({ sessionId });
-      if (error) {
-        console.error("Stripe checkout error:", error);
-      }
-    } catch (error) {
-      console.error("Error:", error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+  // const handleCheckout = async () => {
+  //   try {
+  //     setIsLoading(true);
+  //     const { sessionId } = await createCheckoutSession();
+  //     const stripe = await stripePromise;
+  //     const { error } = await stripe!.redirectToCheckout({ sessionId });
+  //     if (error) {
+  //       console.error("Stripe checkout error:", error);
+  //     }
+  //   } catch (error) {
+  //     console.error("Error:", error);
+  //   } finally {
+  //     setIsLoading(false);
+  //   }
+  // };
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -50,9 +50,8 @@ export default function SubscriptionPage() {
           />
         </div>
       </div>
-
       {/* Content */}
-      <div className="container mx-auto px-4 py-24 relative z-10">
+      {/* <div className="container mx-auto px-4 py-24 relative z-10">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -130,6 +129,14 @@ export default function SubscriptionPage() {
             </p>
           </motion.div>
         </motion.div>
+      </div> */}
+      {/* coming soon */}
+      <div className="container mx-auto px-4 py-24 relative z-10">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
+            Coming Soon
+          </h1>
+        </div>
       </div>
     </div>
   );
