@@ -23,11 +23,13 @@ import { showToast } from "@/config/toast";
 import { useCollectionStore } from "../store/useCollectionStore";
 import { API_URL } from "../config/api";
 import Toast from "react-native-toast-message";
+import { useAuth } from "../context/AuthContext";
 
 const { width } = Dimensions.get("window");
 const CARD_WIDTH = (width - 50) / 2; // 2 columns with 20px padding
 const HEADER_HEIGHT = 100;
 const PROFILE_IMAGE_SIZE = 80;
+const { logout } = useAuth();
 
 interface Collection {
   _id: string;
@@ -282,13 +284,7 @@ export default function Profile() {
             <TouchableOpacity style={styles.buttonPrimary}>
               <Text style={styles.buttonText}>Edit Profile</Text>
             </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.buttonSecondary}
-              onPress={() => {
-                AsyncStorage.removeItem("token");
-                router.replace("/(auth)");
-              }}
-            >
+            <TouchableOpacity style={styles.buttonSecondary} onPress={logout}>
               <Text style={styles.buttonText}>Logout</Text>
             </TouchableOpacity>
           </View>

@@ -10,6 +10,12 @@ const recordSchema = new mongoose.Schema({
   year: Number,
   price: Number,
   discogsId: String,
+  storageLocation: {
+    type: String,
+    required: false,
+    trim: false,
+    default: null,
+  },
   collections: {
     type: [mongoose.Schema.Types.ObjectId],
     ref: "Collection",

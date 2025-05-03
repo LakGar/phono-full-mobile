@@ -55,6 +55,7 @@ export const createRecord = async (req, res) => {
       genre: metadata.genre,
       year: metadata.year,
       discogsId,
+      storageLocation,
       user: req.user.userId,
       collections: [],
     });
