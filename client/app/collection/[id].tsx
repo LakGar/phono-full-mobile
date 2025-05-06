@@ -135,7 +135,7 @@ export default function CollectionDetailScreen() {
     );
   };
 
-  const handleMenuPress = (record: Record) => {
+  const handleMenuPress = (record: any) => {
     setSelectedRecord(record);
     setMenuVisible(true);
   };
@@ -167,42 +167,6 @@ export default function CollectionDetailScreen() {
       });
     } finally {
       setMenuVisible(false);
-    }
-  };
-
-  const handleLikeRecord = async () => {
-    if (!selectedRecord) return;
-    try {
-      await likeRecord(selectedRecord._id);
-      Toast.show({
-        type: "success",
-        text1: "Record Liked",
-      });
-    } catch (error) {
-      console.error("Error liking record:", error);
-      Toast.show({
-        type: "error",
-        text1: "Error",
-        text2: "Failed to like record",
-      });
-    }
-  };
-
-  const handleUnlikeRecord = async () => {
-    if (!selectedRecord) return;
-    try {
-      await unlikeRecord(selectedRecord._id);
-      Toast.show({
-        type: "success",
-        text1: "Record Unliked",
-      });
-    } catch (error) {
-      console.error("Error unliking record:", error);
-      Toast.show({
-        type: "error",
-        text1: "Error",
-        text2: "Failed to unlike record",
-      });
     }
   };
 
@@ -353,8 +317,6 @@ export default function CollectionDetailScreen() {
         visible={menuVisible}
         onClose={() => setMenuVisible(false)}
         onRemove={handleRemoveRecord}
-        onLike={handleLikeRecord}
-        onDislike={handleUnlikeRecord}
         isLiked={
           selectedRecord
             ? useUserStore

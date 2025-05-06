@@ -114,9 +114,6 @@ export default function CollectionScreen() {
               color="grey"
             />
           </TouchableOpacity>
-          <View style={styles.recentlyAdded}>
-            <Text style={styles.recentlyAddedText}>Recently Added</Text>
-          </View>
         </ScrollView>
       </View>
     </LinearGradient>

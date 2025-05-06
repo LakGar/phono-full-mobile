@@ -28,9 +28,6 @@ export default function RecordActionMenu({
   visible,
   onClose,
   onRemove,
-  onLike,
-  onDislike,
-  isLiked,
   recordId,
 }: RecordActionMenuProps) {
   const handleViewRecord = () => {
@@ -50,7 +47,7 @@ export default function RecordActionMenu({
         activeOpacity={1}
         onPress={onClose}
       >
-        <BlurView intensity={80} style={styles.blurContainer}>
+        <BlurView intensity={40} style={styles.blurContainer}>
           <TouchableOpacity
             activeOpacity={1}
             onPress={(e) => e.stopPropagation()}
@@ -69,20 +66,6 @@ export default function RecordActionMenu({
             >
               <MaterialIcons name="visibility" size={24} color="#fff" />
               <Text style={styles.menuText}>View Record</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-              style={styles.menuItem}
-              onPress={isLiked ? onDislike : onLike}
-            >
-              <MaterialIcons
-                name={isLiked ? "favorite" : "favorite-border"}
-                size={24}
-                color="#e54545"
-              />
-              <Text style={[styles.menuText, { color: "#e54545" }]}>
-                {isLiked ? "Unlike" : "Like"}
-              </Text>
             </TouchableOpacity>
 
             <TouchableOpacity

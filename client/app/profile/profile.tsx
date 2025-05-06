@@ -29,7 +29,6 @@ const { width } = Dimensions.get("window");
 const CARD_WIDTH = (width - 50) / 2; // 2 columns with 20px padding
 const HEADER_HEIGHT = 100;
 const PROFILE_IMAGE_SIZE = 80;
-const { logout } = useAuth();
 
 interface Collection {
   _id: string;
@@ -69,6 +68,7 @@ export default function Profile() {
   const scrollY = useRef(new Animated.Value(0)).current;
   const [isHeaderVisible, setIsHeaderVisible] = useState(false);
   const [wishlistData, setWishlistData] = useState<WishlistItem[]>([]);
+  const { logout } = useAuth();
 
   useEffect(() => {
     loadProfile();
@@ -280,7 +280,10 @@ export default function Profile() {
 
           {/* {renderStats()} */}
           <View style={styles.statsContainer}>
-            <TouchableOpacity style={styles.buttonPrimary}>
+            <TouchableOpacity
+              style={styles.buttonPrimary}
+              onPress={() => router.push("/profile/editProfile")}
+            >
               <Text style={styles.buttonText}>Edit Profile</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.buttonSecondary} onPress={logout}>
